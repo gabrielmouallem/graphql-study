@@ -1,0 +1,21 @@
+{
+  "name": "graphql-study-backend",
+  "version": "1.0.0",
+  "description": "This is a node + express backend implemented using graphql used for personal studies over graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Gabriel José Mouallem Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
+    "node-random-name": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
